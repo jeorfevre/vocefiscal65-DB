@@ -71,6 +71,7 @@ public class S3Bucket{
 	public class Helper{
 		private String AWSAccessKeyId = "COLOCAR O SEU ID AQUI"; 
 		private String AWSSecretKey = "COLOCAR O SEU SECRET KEY AQUI";
+
 		public static final int TIMEOUT = 5000;
 		private AmazonS3Client s3Client=new AmazonS3Client();
 		public String provider = "S3";		
